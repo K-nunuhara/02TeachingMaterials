@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AddHealthUsageEffect" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\AddHealthUsageEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFXManagerEditor" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAgAAAAAAEAAgAAACEAAARAAAAAAAAAAAAAAGAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Audio\SFXManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatsDrawer" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\CharacterSystem\StatSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LootSpawnerEditor" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAACIAAACAAAAAIAIAAEAABCAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\GameplayObject\LootSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplyBurnWeaponEffect" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAAAQA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\Effects\ApplyBurnWeaponEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IncreaseStrengthEffect" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAIEAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\Effects\IncreaseStrengthEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatChangeEquipEffect" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAEAAIAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\Effects\StatChangeEquipEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VampiricWeaponEffect" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\Effects\VampiricWeaponEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EquipmentItemEditor" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAgGAAAAgAAAYAEAAAAABAACAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\EquipmentItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemEditor" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACAAAAAAAAAAAAABABAAYAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UsableItemEditor" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAgAAAACAAAAgAAAQAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\UsableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponEditor" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQAAEAAAEAAAAAAgGAAAAgAAAQAEAAAABBEACBA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CactusController" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAKAAAAAEEAAAAAAAEIAAAYAAwQCAAEAAAYE=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\CactusController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraController" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAABIAAAACgAAAAAAAAQIAGAACAQAAAQAAoBAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeController" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAgACAAAAAEAAAAAAAAAIAAAYAAQAAAAEAAAQA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\CubeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAgAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeP2" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\ShapeNonP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriangleP2" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAQAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\ShapeNonP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RectangleP2" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEQAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\ShapeNonP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircleP2" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\ShapeNonP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeP" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\ShapeP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Triangle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAQAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\ShapeP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Rectangle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEQAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\ShapeP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Circle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\ShapeP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SpawnerSample" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\SpawnerSample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LootAngle" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\SpawnerSample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SealedSMB" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Utility\SceneLinkSMB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddHealthEffect" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemEffect\AddHealthEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readme" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Readme.Section" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\TutorialInfo\Scripts\Readme.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAQAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\TutorialInfo\Scripts\Readme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.AnimationControllerDispatcher" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEAAAAAAAAAAAACAAAAAAQAIAAAAAAAEAAEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\AnimationControllerDispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.AmbiencePlayer" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAEEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Audio\AmbiencePlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.CharacterAudio" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAQAAAAAAAAAAAAAIAAAAYAIAAAAAgICAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Audio\CharacterAudio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.RandomBGMPlayer" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Audio\RandomBGMPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.CameraController" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAACAAAAAAEAEAAEAAAUAAAAAAQAAAAAAAgEE=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.AttackState" Collapsed="true">
+    <Position X="5.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAEAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Characters\Player\AttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.CharacterControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEQAAQIUYCCAAgOCAIAKkJEFABBAoRAY4AAAgIQAAFA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Characters\Player\CharacterControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CreatorKitCodeInternal.SimpleEnemyController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEQACQIAACIBABAAAAAQAAAFAAAAIAAIACQEAIAAABA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Characters\SimpleEnemyController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CreatorKitCodeInternal.TrainingDummy" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Characters\TrainingDummy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.BreakableObject" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAACAAAABAAAAAAAIAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\GameplayObject\BreakableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.ResourceManager" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\ResourceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.DamageUI" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgCAAAEQAAAACAAAIAAAAAAAAQAAAAAAAEEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\UI\DamageUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.EffectIconUI" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\UI\EffectIconUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.EquipmentUI" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAgAIAAAAAAAAAAAEABAAAAAAACAAABAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\UI\EquipmentUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.InventoryCharacterRender" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAIAAAAQAACAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\UI\InventoryCharacterRender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.InventoryUI" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAgAAAEEAAAAMgAIAAABAgAAAAABAAAAACIAAQCAg=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\UI\InventoryUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.ItemEntryUI" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAGQAgEAAAAAAABAUAAAABAgACAAAAEAAQCAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\UI\ItemEntryUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CreatorKitCodeInternal.ItemTooltip" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEUAAAAEAAAAACAAAAAAAAQIAAAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\UI\ItemTooltip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.LootUI" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAACAAAAAAAAAAAgBAAEAAIAAAQAAAAIAACAE=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\UI\LootUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.UISystem" Collapsed="true">
+    <Position X="23.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQABgAAhCAACIRAAAAAAgQAACAIAAAAQgECAAAEIEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\UI\UISystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.RandomLoopOffset" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Utility\RandomLoopOffset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.SceneLinkedSMB&lt;TMonoBehaviour&gt;" Collapsed="true">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAJAEBAARAAMAAAAAAAAYAAAgAQABAAIIAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Utility\SceneLinkSMB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCodeInternal.UIAlphaRaycast" Collapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Utility\UIAlphaRaycast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.SFXManager" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAhAAAAAQABAgAAAACIAgAAAgACRCAQIAAAQIAAMA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Audio\SFXManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.BaseElementalEffect" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAQAAACAEAAgAAAAQAAAAAAAQAAAAAAgAAAAAQ=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\CharacterSystem\BaseElementalEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CreatorKitCode.ElementalEffect" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAgAEAAgAAAAQAAAAAAAACAAAAIAAACAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\CharacterSystem\BaseElementalEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.CharacterData" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABUAAACABAACIAgAJAAAAAQAAIAAAAAgAAACCgAACEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\CharacterSystem\CharacterData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.EquipmentSystem" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAFQAAEAEIAIAgAAAAAggACACAICAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\CharacterSystem\EquipmentSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.InventorySystem" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAACAAAAAAAAAAgAAAAAAAAAACAACAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\CharacterSystem\InventorySystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.StatSystem" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABEAADQAAIAAgAIACABBAQgAAAAAAAgAAACAACAUAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\CharacterSystem\StatSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.Container" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAEBAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\GameplayObject\Container.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.Loot" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAEAACAAAAAAAAEAAJEEAAAAACAAAABAAAAACEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\GameplayObject\Loot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.LootSpawner" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAABAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\GameplayObject\LootSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.SpawnPoint" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAQAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\GameplayObject\SpawnPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.HighlightableObject" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAQAAAAgAAAIAEAAIAAAAgBAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\HighlightableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.InteractableObject" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\InteractableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.EquipmentItem" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAIAAAAEAAAAAAAQAAAEEAIAAAIgA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\EquipmentItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.Item" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAgAAAAIAAAAAAAAAAAIAAAAAEAgAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.UsableItem" Collapsed="true">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAGAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\UsableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.Weapon" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAIIAIAAEAAAAAIAAAAiAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Items\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.Helpers" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Utility\Helpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.VFXDatabase" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\VFXDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreatorKitCode.VFXManager" Collapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAEAAAAQAAAAAAACAAAAAAAAAQAAKAAAAAEA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\VFXManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IShape" Collapsed="true">
+    <Position X="11" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\Tutorial\IShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VFXType" Collapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAIAAAAAAIAAAAAAAAAAAAACAAAAACgAAA=</HashCode>
+      <FileName>Assets\Creator Kit - Beginner Code\Scripts\VFXTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>
