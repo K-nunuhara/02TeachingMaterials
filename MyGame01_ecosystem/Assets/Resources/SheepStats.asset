@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70883c759b8ca6043b7026f05979578f, type: 3}
+  m_Name: SheepStats
+  m_EditorClassIdentifier: 
+  MAX_HEALTH: 100
+  MIN_HEALTH: 0
+  BASE_CALORIE: 10000
+  MAX_CALORIE: 50000
+  MIN_CALORIE: 5000
+  CONSUME_CALORIE: 200
+  BASE_WATER: 10000
+  MAX_WATER: 12000
+  MIN_WATER: 8000
+  CONSUME_WATER: 50
+  LIKE_SPECIES: 
+  DISLIKE_SPECIES: 
+  AnimalPoint: 5
+  MAX_BREED: 1
+  EAT_DURATION: 5
+  DRINK_DURATION: 5
+  DIET: 0000000002000000
