@@ -43,7 +43,7 @@ public class Sheep : Herbivore
         }
         else
         {
-            ChangeState(new Normal());
+            ChangeState(Normal.instance);
         }
 
         currentTime += Time.deltaTime;
@@ -78,7 +78,9 @@ public class Sheep : Herbivore
 
     private void FixedUpdate()
     {
-
+        target = state.FindTarget(this);
+        state.TryToMove(this, target);
+        state.Action(this, target);
     }
 
     private void Initialize()
@@ -91,7 +93,7 @@ public class Sheep : Herbivore
         this.calorie = stats.BASE_CALORIE;
         this.water = stats.BASE_WATER;
         this.isMovable = true;
-        this.state = null; // Should be set to "Normal"
+        this.state = Normal.instance;
         this.sound = null; // Should be set sound file
         this.rb = this.GetComponent<Rigidbody>();
         this.stats.DIET = new Species.Type[] { Species.Type.Flower, Species.Type.Grass };
