@@ -31,6 +31,7 @@ public class Sheep : Herbivore
     {
         ConsumeCalorie();
 
+        // Should be contain as CheckHealth()
         if (this.health <= this.stats.MIN_HEALTH)
         {
             Die();
@@ -38,7 +39,7 @@ public class Sheep : Herbivore
 
         if (this.calorie < this.stats.BASE_CALORIE)
         {
-            // Hunder class doesn't exsist now
+            // Hunger class doesn't exsist now
             // ChangeState(new Hunger());
         }
         else

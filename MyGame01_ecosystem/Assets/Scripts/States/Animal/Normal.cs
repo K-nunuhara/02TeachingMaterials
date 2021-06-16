@@ -11,6 +11,9 @@ namespace AnimalStates
         // Singleton
         public static Normal instance { get; private set; }
 
+        public float rayScale = 1.0f;
+        public RaycastHit hit;
+
         private void Awake()
         {
             if (instance == null)
@@ -34,8 +37,8 @@ namespace AnimalStates
         {
             if (mover.isMovable)
             {
-                bool isStraightRayTouchSomething = false; //CheckStraight(mover);
-                bool isDiagnallyDownwardRayTouchWater = false; //CheckDiagnallyDownward(mover);
+                bool isStraightRayTouchSomething = CheckStraight(mover);
+                bool isDiagnallyDownwardRayTouchWater = CheckDiagnallyDownward(mover);
 
                 if (isStraightRayTouchSomething || isDiagnallyDownwardRayTouchWater)
                 {
@@ -55,6 +58,21 @@ namespace AnimalStates
                     }
                 }
             }
+        }
+
+        private bool CheckStraight(Animal mover)
+        {
+            Ray straightRay = new Ray(mover.GetComponent<Renderer>().bounds.center, mover.transform.forward);
+            Debug.DrawRay(straightRay.origin, straightRay.direction * mover.transform.localScale.z * rayScale, Color.green, 2);
+            return Physics.Raycast(straightRay, out hit, mover.transform.localScale.z * rayScale);
+        }
+
+        private bool CheckDiagnallyDownward(Animal mover)
+        {
+            Ray diagnallyDownwardRay = new Ray(mover.GetComponent<Renderer>().bounds.center, mover.transform.forward - mover.transform.up / 2);
+            Debug.DrawRay(diagnallyDownwardRay.origin, diagnallyDownwardRay.direction * mover.transform.localScale.z * rayScale, Color.red, 2);
+            int waterLayerMask = LayerMask.GetMask("Water"/*Layers.Name.Water.ToString()*/);
+            return Physics.Raycast(diagnallyDownwardRay, out hit, mover.transform.localScale.z * rayScale, waterLayerMask);
         }
 
         public async void Move(Animal mover, GameObject target)
