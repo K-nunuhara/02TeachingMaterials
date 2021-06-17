@@ -86,7 +86,7 @@ namespace AnimalStates
 
         public void Action(Animal mover, GameObject target)
         {
-            Debug.Log(mover.uid + ": Normal action");
+            Debug.Log("Normal action");
         }
     }
 }

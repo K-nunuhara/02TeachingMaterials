@@ -37,14 +37,16 @@ public class Sheep : Herbivore
             Die();
         }
 
-        if (this.calorie < this.stats.BASE_CALORIE)
+        if (this.state.GetType() != Eating.instance.GetType())
         {
-            // Hunger class doesn't exsist now
-            // ChangeState(new Hunger());
-        }
-        else
-        {
-            ChangeState(Normal.instance);
+            if (this.calorie < this.stats.BASE_CALORIE)
+            {
+                ChangeState(Hunger.instance);
+            }
+            else
+            {
+                ChangeState(Normal.instance);
+            }
         }
 
         currentTime += Time.deltaTime;
@@ -61,8 +63,8 @@ public class Sheep : Herbivore
 
     public override void ConsumeCalorie()
     {
-        Debug.Log("UID: " + this.uid + " calorie is " + this.calorie);
-        Debug.Log("UID: " + this.uid + " health is " + this.health);
+        //Debug.Log("UID: " + this.uid + " calorie is " + this.calorie);
+        //Debug.Log("UID: " + this.uid + " health is " + this.health);
         this.calorie = Mathf.Max(this.calorie - this.stats.CONSUME_CALORIE * Time.deltaTime, this.stats.MIN_CALORIE);
         if (this.calorie == this.stats.MIN_CALORIE)
         {
