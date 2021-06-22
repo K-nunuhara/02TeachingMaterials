@@ -51,7 +51,7 @@ namespace AnimalStates
             else if ((target.transform.position - mover.transform.position).sqrMagnitude < mover.transform.localScale.sqrMagnitude)
             {
                 rb.transform.Rotate(-10.0f, 0.0f, 0.0f);
-                await Task.Delay(1500);
+                await Task.Delay(TimeManager.instance.getCurrentGameSpeedIntervalA());
                 mover.isMovable = true;
             }
             else

@@ -80,7 +80,7 @@ namespace AnimalStates
             Rigidbody rb = mover.GetComponent<Rigidbody>();
             rb.transform.Rotate(-10.0f, 0.0f, 0.0f);
             rb.velocity = rb.transform.forward + rb.transform.up;
-            await Task.Delay(1500);
+            await Task.Delay(TimeManager.instance.getCurrentGameSpeedIntervalA());
             mover.isMovable = true;
         }
 

@@ -80,7 +80,7 @@ namespace AnimalStates
             {
                 rb.transform.Rotate(-10.0f, 0.0f, 0.0f);
                 rb.velocity = rb.transform.forward + rb.transform.up;
-                await Task.Delay(1500);
+                await Task.Delay(TimeManager.instance.getCurrentGameSpeedIntervalA());
                 mover.isMovable = true;
             }
             else if ((target.transform.position - mover.transform.position).sqrMagnitude < mover.transform.localScale.sqrMagnitude)
@@ -92,7 +92,7 @@ namespace AnimalStates
             {
                 CalcUtils.LookTarget(mover, target);
                 rb.velocity = rb.transform.forward + rb.transform.up;
-                await Task.Delay(1500);
+                await Task.Delay(TimeManager.instance.getCurrentGameSpeedIntervalA());
                 mover.isMovable = true;
             }
         }
