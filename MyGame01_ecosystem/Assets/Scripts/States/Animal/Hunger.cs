@@ -32,7 +32,7 @@ namespace AnimalStates
         {
             // You can also use onCllision() method
             int plantLayer = LayerMask.GetMask("Plants"/*Layers.Name.Plants.ToString()*/);
-            Collider[] colliders = Physics.OverlapSphere(mover.transform.position, 5f/* * mover.gene.sense*/, plantLayer);
+            Collider[] colliders = Physics.OverlapSphere(mover.transform.position, 5f * mover.gene.sense, plantLayer);
             GameObject nearestObj = null;
             Vector3 nearestObjPos = Vector3.one * 999;
             foreach (Collider hit in colliders)

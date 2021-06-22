@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using AnimalStates;
+using UnityEngine.UI;
 
 public class Sheep : Herbivore
 {
@@ -35,6 +36,10 @@ public class Sheep : Herbivore
         if (this.health <= this.stats.MIN_HEALTH)
         {
             Die();
+        }
+        else
+        {
+            slider.value = this.health;
         }
 
         if (this.state.GetType() != Eating.instance.GetType())
@@ -100,6 +105,12 @@ public class Sheep : Herbivore
         this.sound = null; // Should be set sound file
         this.rb = this.GetComponent<Rigidbody>();
         this.stats.DIET = new Species.Type[] { Species.Type.Flower, Species.Type.Grass };
+        this.gene = GeneManager.instance.AnimalGeneInit();
+        this.ui = Instantiate(UIManager.instance.animalUI_HPBar, this.transform);
+        this.ui.SetActive(true);
+        this.slider = this.ui.transform.Find("Slider_HP").GetComponent<Slider>();
+        this.slider.minValue = this.stats.MIN_HEALTH;
+        this.slider.maxValue = this.stats.MAX_HEALTH;
     }
 
     public override void Ruminant()
