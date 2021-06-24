@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using AnimalStates;
 using UnityEngine.UI;
+using System;
 
 public class Sheep : Herbivore
 {
@@ -18,7 +19,15 @@ public class Sheep : Herbivore
 
     void Start()
     {
-        Initialize();
+        try
+        {
+            Initialize();
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error occurred on Initialize(). Message: " + e.Message + ",StackTrace: " + e.StackTrace);
+            // The stack trace stores information about which script caused the error and on which line.
+        }
     }
 
     public override void Grow()
